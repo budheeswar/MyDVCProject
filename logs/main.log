@@ -1,0 +1,82 @@
+2022-10-17 15:01:44,734 +0530 [main] INFO  (DVCStage.java:23) - ***************************************  STARTING   **********************************************
+2022-10-17 15:01:44,749 +0530 [main] INFO  (SetUpDBSDriver.java:17) - ******* INITIALISING   WEB DRIVER ******
+2022-10-17 15:01:45,287 +0530 [main] DEBUG (InternalLoggerFactory.java:89) - Using Log4J as the default logging framework
+2022-10-17 15:01:45,304 +0530 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2022-10-17 15:01:45,305 +0530 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2022-10-17 15:01:45,321 +0530 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@63475ace
+2022-10-17 15:01:45,384 +0530 [main] DEBUG (PlatformDependent0.java:495) - -Dio.netty.noUnsafe: false
+2022-10-17 15:01:45,385 +0530 [main] DEBUG (PlatformDependent0.java:998) - Java version: 11
+2022-10-17 15:01:45,391 +0530 [main] DEBUG (PlatformDependent0.java:136) - sun.misc.Unsafe.theUnsafe: available
+2022-10-17 15:01:45,393 +0530 [main] DEBUG (PlatformDependent0.java:160) - sun.misc.Unsafe.copyMemory: available
+2022-10-17 15:01:45,394 +0530 [main] DEBUG (PlatformDependent0.java:192) - sun.misc.Unsafe.storeFence: available
+2022-10-17 15:01:45,395 +0530 [main] DEBUG (PlatformDependent0.java:235) - java.nio.Buffer.address: available
+2022-10-17 15:01:45,397 +0530 [main] DEBUG (PlatformDependent0.java:319) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-10-17 15:01:45,398 +0530 [main] DEBUG (PlatformDependent0.java:384) - java.nio.Bits.unaligned: available, true
+2022-10-17 15:01:45,400 +0530 [main] DEBUG (PlatformDependent0.java:451) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @757acd7b
+2022-10-17 15:01:45,404 +0530 [main] DEBUG (PlatformDependent0.java:481) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-10-17 15:01:45,408 +0530 [main] DEBUG (PlatformDependent.java:1120) - sun.misc.Unsafe: available
+2022-10-17 15:01:45,440 +0530 [main] DEBUG (PlatformDependent.java:1231) - maxDirectMemory: 4294967296 bytes (maybe)
+2022-10-17 15:01:45,440 +0530 [main] DEBUG (PlatformDependent.java:1250) - -Dio.netty.tmpdir: C:\Users\RAJOB001\AppData\Local\Temp\2 (java.io.tmpdir)
+2022-10-17 15:01:45,441 +0530 [main] DEBUG (PlatformDependent.java:1329) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-10-17 15:01:45,443 +0530 [main] DEBUG (PlatformDependent.java:1080) - Platform: Windows
+2022-10-17 15:01:45,446 +0530 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2022-10-17 15:01:45,447 +0530 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-10-17 15:01:45,455 +0530 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2022-10-17 15:01:45,456 +0530 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2022-10-17 15:01:45,474 +0530 [main] DEBUG (PlatformDependent.java:971) - org.jctools-core.MpscChunkedArrayQueue: available
+2022-10-17 15:01:45,550 +0530 [main] DEBUG (InternalThreadLocalMap.java:86) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-10-17 15:01:45,551 +0530 [main] DEBUG (InternalThreadLocalMap.java:89) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-10-17 15:01:46,063 +0530 [main] DEBUG (JdkSslContext.java:97) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-10-17 15:01:46,063 +0530 [main] DEBUG (JdkSslContext.java:98) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-10-17 15:01:46,138 +0530 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 8
+2022-10-17 15:01:46,164 +0530 [main] DEBUG (NioEventLoop.java:109) - -Dio.netty.noKeySetOptimization: false
+2022-10-17 15:01:46,164 +0530 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-10-17 15:01:46,294 +0530 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 8
+2022-10-17 15:01:46,295 +0530 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 8
+2022-10-17 15:01:46,298 +0530 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2022-10-17 15:01:46,300 +0530 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2022-10-17 15:01:46,300 +0530 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2022-10-17 15:01:46,301 +0530 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2022-10-17 15:01:46,301 +0530 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2022-10-17 15:01:46,302 +0530 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-10-17 15:01:46,303 +0530 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-10-17 15:01:46,303 +0530 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-10-17 15:01:46,304 +0530 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-10-17 15:01:46,305 +0530 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-10-17 15:01:46,329 +0530 [main] DEBUG (ByteBufUtil.java:87) - -Dio.netty.allocator.type: pooled
+2022-10-17 15:01:46,330 +0530 [main] DEBUG (ByteBufUtil.java:96) - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-10-17 15:01:46,330 +0530 [main] DEBUG (ByteBufUtil.java:99) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-10-17 15:01:47,499 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 19848 (auto-detected)
+2022-10-17 15:01:47,505 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:136) - -Djava.net.preferIPv4Stack: false
+2022-10-17 15:01:47,506 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:137) - -Djava.net.preferIPv6Addresses: false
+2022-10-17 15:01:47,613 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:129) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-10-17 15:01:47,615 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:191) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-10-17 15:01:47,694 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: 00:50:56:ff:fe:b0:13:4b (auto-detected)
+2022-10-17 15:01:47,817 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2022-10-17 15:01:47,819 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2022-10-17 15:01:47,820 +0530 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1983f44c
+2022-10-17 15:01:47,879 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:85) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-10-17 15:01:47,880 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:86) - -Dio.netty.recycler.ratio: 8
+2022-10-17 15:01:47,880 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:87) - -Dio.netty.recycler.chunkSize: 32
+2022-10-17 15:01:47,881 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:88) - -Dio.netty.recycler.blocking: false
+2022-10-17 15:01:50,679 +0530 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-10-17 15:01:50,965 +0530 [main] DEBUG (ThreadLocalRandom.java:214) - -Dio.netty.initialSeedUniquifier: 0x56083ac821f5c3bd
+2022-10-17 15:01:51,068 +0530 [main] INFO  (SetUpDBSDriver.java:23) - STAGE URL https://stage.dvc-ubi.wdprapps.disney.com/home/486430619946/m:738253
+2022-10-17 15:01:55,748 +0530 [main] INFO  (SetUpDBSDriver.java:28) - ******* INITIALISING   WEB DRIVER COMPLETED ******
+2022-10-17 15:01:55,752 +0530 [main] INFO  (LoginScreen.java:13) - ***************** INSIDE LOGIN PAGE ****************
+2022-10-17 15:01:56,894 +0530 [main] INFO  (LoginScreen.java:19) - <-- LOGIN WITH TEST119@DISNEY.COM -->
+2022-10-17 15:01:59,294 +0530 [main] INFO  (LoginScreen.java:33) - ********************** LOGIN COMPLETED *********************
+2022-10-17 15:02:07,313 +0530 [main] INFO  (BookReservationProcess.java:21) - ***************** INSIDE BOOKING RESERVATION PROCESS ****************
+2022-10-17 15:02:07,318 +0530 [main] INFO  (ProductCategory.java:22) - ***************** INSIDE PRODUCT CATEGORY ****************
+2022-10-17 15:02:07,318 +0530 [main] INFO  (ProductCategory.java:70) - ********** INSIDE SELECTING HKDR **********
+2022-10-17 15:02:08,558 +0530 [main] INFO  (ProductCategory.java:80) - **********  SELECTING HKDR FINISHED **********
+2022-10-17 15:02:08,558 +0530 [main] INFO  (ProductCategory.java:50) - **********  SELECTING PRODUCT CATEGORY FINISHED **********
+2022-10-17 15:02:10,576 +0530 [main] INFO  (ProductClicking.java:23) - ***************** INSIDE PRODUCT SELECTING ****************
+2022-10-17 15:02:14,165 +0530 [main] INFO  (ProductInfo.java:18) - ********** INSIDE INDIVIDUAL PRODUCT CHOOSING **********
+2022-10-17 15:02:14,165 +0530 [main] INFO  (ProductInfo.java:110) - ********** SELECTED DISNEY EXPLORERS LODGE **********
+2022-10-17 15:02:17,505 +0530 [main] INFO  (ProductInfo.java:50) - **********  SELECTED --> Disney Explorers Lodge **********
+2022-10-17 15:02:18,520 +0530 [main] INFO  (ProductClicking.java:39) - *****************  PRODUCT SELECTING FINISHED ****************
+2022-10-17 15:02:19,528 +0530 [main] INFO  (DatePicker.java:16) - ********** INSIDE DATE PICKING **********
+2022-10-17 15:02:25,260 +0530 [main] INFO  (DatePicker.java:55) - <-- Selected DATE is January  -->
+2022-10-17 15:02:25,260 +0530 [main] INFO  (DatePicker.java:58) - ********** DATE PICKING COMPLETED **********
+2022-10-17 15:02:26,278 +0530 [main] INFO  (FindOffers.java:15) - ********** INSIDE FIND OFFER **********
